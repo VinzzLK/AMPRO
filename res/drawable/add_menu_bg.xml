@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/add_popup_small_radius" android:topRightRadius="@dimen/add_popup_small_radius" />
+            <solid android:color="@color/A9_W5P" />
+        </shape>
+    </item>
+</selector>

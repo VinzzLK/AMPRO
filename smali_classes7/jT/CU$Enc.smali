@@ -1,0 +1,67 @@
+.class LjT/CU$Enc;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LjT/c;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LjT/CU;->q(Ljava/lang/Class;)LjT/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic hUw:Ljava/lang/String;
+
+.field final synthetic j:LjT/CU;
+
+
+# direct methods
+.method constructor <init>(LjT/CU;Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LjT/CU$Enc;->j:LjT/CU;
+
+    .line 2
+    .line 3
+    iput-object p2, p0, LjT/CU$Enc;->hUw:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public hUw()Ljava/lang/Object;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/google/gson/JsonIOException;
+
+    .line 2
+    .line 3
+    iget-object v1, p0, LjT/CU$Enc;->hUw:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    invoke-direct {v0, v1}, Lcom/google/gson/JsonIOException;-><init>(Ljava/lang/String;)V
+
+    .line 6
+    .line 7
+    .line 8
+    throw v0
+.end method

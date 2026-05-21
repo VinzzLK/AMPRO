@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/holder" android:background="@drawable/minibrowser_button_bg" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginStart="2.5dip" android:layout_marginEnd="2.5dip">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_download_white" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/W1" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/download_elements" android:textAlignment="center" />
+    </LinearLayout>
+    <View android:layout_gravity="end" android:id="@id/emptyPadding" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="7.5dip" android:layout_height="fill_parent" />
+</LinearLayout>

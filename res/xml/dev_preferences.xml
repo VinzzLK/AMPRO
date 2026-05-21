@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="General" android:key="header.com.alightcreative.motion.acDevMode">
+        <SwitchPreference android:title="Developer Testing Override" android:key="com.alightcreative.motion.acDevMode" android:defaultValue="false" />
+        <SwitchPreference android:title="Demo Mode" android:key="com.alightcreative.motion.demoMode" android:defaultValue="false" />
+        <SwitchPreference android:title="Show Experimental Effects" android:key="com.alightcreative.motion.experimentalEffects" android:defaultValue="false" />
+        <SwitchPreference android:title="Experimental Features" android:key="com.alightcreative.motion.experimentalFeatures" android:defaultValue="false" />
+        <SwitchPreference android:title="Simulate Upload" android:key="com.alightcreative.motion.simulateUpload" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Home Feed, Tutorials &amp; Element Download">
+        <SwitchPreference android:title="Use Staging Server" android:key="com.alightcreative.motion.stagingFeed" android:defaultValue="false" />
+        <SwitchPreference android:title="Ignore Publishing Date" android:key="com.alightcreative.motion.feedIgnorePubDate" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="IAP">
+        <ListPreference android:entries="@array/accountTestModeLabels" android:title="Sign-in Simulation" android:key="com.alightcreative.motion.acctTestMode" android:summary="%s" android:defaultValue="normal" android:entryValues="@array/accountTestModeValues" />
+        <SwitchPreference android:title="Pass Testing" android:key="com.alightcreative.motion.iaptest" android:summary="Treat annual passes as hourly passes, monthly passes as annual passes" android:defaultValue="false" />
+        <SwitchPreference android:title="Simulate Bad Token" android:key="com.alightcreative.motion.iapSimulateBadToken" android:defaultValue="false" />
+        <SwitchPreference android:title="Prompt Test" android:key="com.alightcreative.motion.iapPromptTest" android:defaultValue="false" />
+        <ListPreference android:entries="@array/iapPromptDelayLabels" android:title="IAP Prompt Delay" android:key="com.alightcreative.motion.iapPromptDelay" android:summary="%s" android:defaultValue="DEFAULT" android:entryValues="@array/iapPromptDelayValues" />
+        <ListPreference android:entries="@array/iapPromptTypeLabels" android:title="IAP Prompt Type" android:key="com.alightcreative.motion.iapPrompt" android:summary="%s" android:defaultValue="DEFAULT" android:entryValues="@array/iapPromptTypeValues" />
+        <ListPreference android:entries="@array/iapPromptContentTestLabels" android:title="IAP Prompt Content" android:key="com.alightcreative.motion.iapPromptContentTest" android:summary="%s" android:defaultValue="DEFAULT" android:entryValues="@array/iapPromptContentTestValues" />
+        <SwitchPreference android:title="Use Test Ads" android:key="com.alightcreative.motion.useTestAds" android:defaultValue="true" />
+        <SwitchPreference android:title="Use Interstitial Video Test Ads" android:key="com.alightcreative.motion.useInterstitialVideoTestAds" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Device Information" android:key="header.com.alightcreative.motion.deviceInfo">
+        <Preference android:title="Device Diagnostic Information" android:key="com.alightcretive.motion.showDiagnosticInfo" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Testing" android:key="header.com.alightcreative.motion.testing">
+        <Preference android:title="Reset Privacy Policy Agreement" android:key="com.alightcretive.motion.action.resetPrivacyAgree" />
+        <Preference android:title="Reset Review and Lag Popups" android:key="com.alightcretive.motion.action.resetReview" />
+        <Preference android:title="Reset Element 'New' Trackng" android:key="com.alightcretive.motion.action.resetElementNew" />
+        <Preference android:title="Reset 1-time Popups &amp; Balloons" android:key="com.alightcreative.motion.action.resetOneTimePopups" />
+        <Preference android:title="Reset and Wipe App Data" android:key="com.alightcreative.motion.action.resetAppData" />
+        <Preference android:title="Reload Remote Config" android:key="com.alightcretive.motion.action.reloadRemoteConfig" />
+        <Preference android:title="Copy Firebase IID to Clipboard" android:key="com.alightcretive.motion.action.firebaseIID" android:summary="IID: (loading)" />
+        <SwitchPreference android:title="Disable Render Performance Trace" android:key="com.alightcreative.motion.disableRenderPerformanceTrace" android:defaultValue="false" />
+        <SwitchPreference android:title="Simulate EEA Region" android:key="com.alightcreative.motion.testEEA" android:defaultValue="false" />
+        <SwitchPreference android:title="Use Firebase Emulator" android:key="com.alightcreative.motion.useFirebaseEmulator" android:defaultValue="false" />
+        <EditTextPreference android:title="Firebase Emulator Address" android:key="com.alightcreative.motion.firebaseEmulatorAddress" android:defaultValue="" app:useSimpleSummaryProvider="true" />
+        <Preference android:title="Add 3.5 to installed version history" android:key="com.alightcreative.motion.action.addInstall3_5" />
+        <Preference android:title="Add 3.10.3 to installed version history" android:key="com.alightcreative.motion.action.addInstall3_10_3" />
+        <Preference android:title="Clear installed version history" android:key="com.alightcreative.motion.action.clearInstallHistory" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Audio">
+        <ListPreference android:entries="@array/audioResamplerTypeLabels" android:title="Resampler Algorithm" android:key="com.alightcreative.motion.audioResamplerType" android:summary="%s" android:defaultValue="SincLow" android:entryValues="@array/audioResamplerTypeValues" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/dev_pref_header" android:title="Utility" android:key="header.com.alightcreative.motion.utils">
+        <Preference android:title="Export Effect Documentation Templates" android:key="com.alightcreative.motion.exportEffectDocTemplates" />
+    </PreferenceCategory>
+</PreferenceScreen>

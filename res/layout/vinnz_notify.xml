@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vinnz_notify_root"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    android:background="#E6000000"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:translationX="-320dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✦"
+            android:textColor="#FF6B35"
+            android:textSize="14sp"
+            android:paddingEnd="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@Vinnz_"
+            android:textColor="#FF6B35"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="#33FF6B35"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silahkan menikmati Alight Motion Pro, terimakasih sudah membeli 🎉"
+        android:textColor="#CCFFFFFF"
+        android:textSize="11sp"
+        android:lineSpacingExtra="2dp"/>
+
+</LinearLayout>

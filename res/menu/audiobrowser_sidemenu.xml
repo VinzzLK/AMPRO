@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/audiobrowser_songs" android:title="@string/audiobrowser_songs" />
+    <item android:id="@id/audiobrowser_albums" android:title="@string/audiobrowser_albums" />
+    <item android:id="@id/audiobrowser_artists" android:title="@string/audiobrowser_artists" />
+    <item android:id="@id/audiobrowser_genres" android:title="@string/audiobrowser_genres" />
+</menu>

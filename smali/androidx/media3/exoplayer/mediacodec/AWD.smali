@@ -1,0 +1,32 @@
+.class public final synthetic Landroidx/media3/exoplayer/mediacodec/AWD;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/media3/exoplayer/mediacodec/MediaCodecUtil$V;
+
+
+# direct methods
+.method public synthetic constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getScore(Ljava/lang/Object;)I
+    .locals 0
+
+    .line 1
+    check-cast p1, Landroidx/media3/exoplayer/mediacodec/qfV;
+
+    invoke-static {p1}, Landroidx/media3/exoplayer/mediacodec/MediaCodecUtil;->j(Landroidx/media3/exoplayer/mediacodec/qfV;)I
+
+    move-result p1
+
+    return p1
+.end method

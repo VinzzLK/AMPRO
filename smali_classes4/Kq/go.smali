@@ -1,0 +1,40 @@
+.class public final synthetic LKq/go;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic j:LKq/t;
+
+
+# direct methods
+.method public synthetic constructor <init>(LKq/t;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LKq/go;->j:LKq/t;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LKq/go;->j:LKq/t;
+
+    check-cast p1, Landroid/view/MotionEvent;
+
+    invoke-static {v0, p1}, LKq/t;->nvG(LKq/t;Landroid/view/MotionEvent;)Lkotlin/Unit;
+
+    move-result-object p1
+
+    return-object p1
+.end method

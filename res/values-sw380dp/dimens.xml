@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="effect_popup_width">345.0dip</dimen>
+    <dimen name="mini_color_picker_alpha_width">32.0dip</dimen>
+    <dimen name="mini_color_picker_button_width">64.0dip</dimen>
+    <dimen name="purchase_option_width">320.0dip</dimen>
+</resources>

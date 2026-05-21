@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="popupMaxHeight">620.0dip</dimen>
+    <dimen name="purchase_bi_bg_max_height">250.0dip</dimen>
+    <dimen name="purchase_continue_bottom_margin">16.0dip</dimen>
+    <dimen name="purchase_continue_height">60.0dip</dimen>
+    <dimen name="purchase_feature_height">131.0dip</dimen>
+    <dimen name="purchase_feature_icon_size">126.0dip</dimen>
+    <dimen name="purchase_feature_list_topmargin">10.0dip</dimen>
+    <dimen name="purchase_feature_width">92.0dip</dimen>
+    <dimen name="purchase_maintitle_text">18.0dip</dimen>
+    <dimen name="purchase_option_label_text">12.0dip</dimen>
+    <dimen name="purchase_option_subtext">13.0dip</dimen>
+    <dimen name="purchase_option_text">16.0dip</dimen>
+    <dimen name="purchase_option_total_text">14.0dip</dimen>
+    <dimen name="purchase_option_vertical_margin">10.0dip</dimen>
+    <dimen name="purchase_top_guideline">313.0dip</dimen>
+</resources>

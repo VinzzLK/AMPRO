@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/round_rect15dp_w5" android:insetLeft="@dimen/margin_10dp" android:insetRight="@dimen/margin_10dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/commonHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="35.0dip" android:textStyle="bold" android:textColor="@color/W1" android:id="@id/commonTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_10dp" android:layout_marginBottom="@dimen/margin_10dp" android:textAlignment="center" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0dip" android:textColor="@color/W1" android:id="@id/commonDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_10dp" android:textAlignment="center" />
+    <VideoView android:id="@id/commonVideoView" android:layout_width="200.0dip" android:layout_height="353.0dip" android:layout_marginBottom="@dimen/margin_10dp" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0dip" android:textColor="@color/W1" android:id="@id/commonBottomDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/color_picker_popup_holder" android:background="@android:color/transparent" android:paddingTop="@dimen/arrow_size_h" android:paddingBottom="@dimen/arrow_size_h" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.alightcreative.app.motion.activities.edit.widgets.ColorPickerWidget android:id="@id/color_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

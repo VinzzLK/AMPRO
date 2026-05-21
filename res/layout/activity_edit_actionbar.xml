@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/action_bar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/buttonUndo" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_undo_white_24dp" />
+    <ImageButton android:id="@id/buttonRedo" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_redo_white_24dp" />
+    <ImageButton android:id="@id/buttonPlay" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_play_arrow_white_24dp" />
+    <ImageButton android:id="@id/buttonAdd" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_add_white_24dp" />
+    <ImageButton android:id="@id/buttonClose" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_close_menu" />
+</LinearLayout>

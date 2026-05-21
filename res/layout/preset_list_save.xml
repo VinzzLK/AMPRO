@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/saveHolder" android:background="@drawable/round_rect5dp_nor_s7_pre_s5" android:layout_width="fill_parent" android:layout_height="@dimen/list_panel_item_height" android:layout_margin="@dimen/list_panel_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/saveIcon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/ic_save_preset" />
+    <TextView android:textColor="@color/W1" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/save_preset_button_copy" android:layout_weight="1.0" />
+    <ImageView android:id="@id/infoIcon" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="32.0dip" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" android:layout_marginEnd="4.0dip" android:paddingVertical="10.0dip" app:srcCompat="@drawable/ac_ic_appbar_info" />
+</LinearLayout>

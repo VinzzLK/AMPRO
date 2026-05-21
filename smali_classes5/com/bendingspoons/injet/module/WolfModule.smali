@@ -1,0 +1,156 @@
+.class public abstract Lcom/bendingspoons/injet/module/WolfModule;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LHX/xfY;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/bendingspoons/injet/module/WolfModule$WolfPredictionInfo;
+    }
+.end annotation
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method private static final synthetic R6(Lcom/bendingspoons/injet/module/WolfModule;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/bendingspoons/injet/module/WolfModule;->q(Ljava/lang/Object;)LBQ/A;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+.method public static final synthetic cD(Lcom/bendingspoons/injet/module/WolfModule;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-static {p0, p1, p2}, Lcom/bendingspoons/injet/module/WolfModule;->R6(Lcom/bendingspoons/injet/module/WolfModule;Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public hUw(Lcom/bendingspoons/injet/webbridge/XSt;)V
+    .locals 3
+
+    .line 1
+    const-string v0, "scope"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    new-instance v0, Lcom/bendingspoons/injet/module/WolfModule$xfY;
+
+    .line 7
+    .line 8
+    const/4 v1, 0x0
+
+    .line 9
+    invoke-direct {v0, p0, v1}, Lcom/bendingspoons/injet/module/WolfModule$xfY;-><init>(Lcom/bendingspoons/injet/module/WolfModule;Lkotlin/coroutines/Continuation;)V
+
+    .line 10
+    .line 11
+    .line 12
+    new-instance v2, Lcom/bendingspoons/injet/module/WolfModule$CU;
+
+    .line 13
+    .line 14
+    invoke-direct {v2, v0, v1}, Lcom/bendingspoons/injet/module/WolfModule$CU;-><init>(Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)V
+
+    .line 15
+    .line 16
+    .line 17
+    const-string v0, "getPredictionInfo"
+
+    .line 18
+    .line 19
+    invoke-interface {p1, v0, v2}, Lcom/bendingspoons/injet/webbridge/XSt;->hUw(Ljava/lang/String;Lkotlin/jvm/functions/Function2;)V
+
+    .line 20
+    .line 21
+    .line 22
+    new-instance v0, Lcom/bendingspoons/injet/module/WolfModule$A;
+
+    .line 23
+    .line 24
+    invoke-direct {v0, p0}, Lcom/bendingspoons/injet/module/WolfModule$A;-><init>(Ljava/lang/Object;)V
+
+    .line 25
+    .line 26
+    .line 27
+    new-instance v2, Lcom/bendingspoons/injet/module/WolfModule$h;
+
+    .line 28
+    .line 29
+    invoke-direct {v2, v0, v1}, Lcom/bendingspoons/injet/module/WolfModule$h;-><init>(Lkotlin/jvm/functions/Function2;Lkotlin/coroutines/Continuation;)V
+
+    .line 30
+    .line 31
+    .line 32
+    const-string v0, "trackPaywallAction"
+
+    .line 33
+    .line 34
+    invoke-interface {p1, v0, v2}, Lcom/bendingspoons/injet/webbridge/XSt;->hUw(Ljava/lang/String;Lkotlin/jvm/functions/Function2;)V
+
+    .line 35
+    .line 36
+    .line 37
+    return-void
+.end method
+
+.method public j()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "WolfAnalytics"
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public abstract q(Ljava/lang/Object;)LBQ/A;
+.end method
+
+.method public abstract x()LBQ/A;
+.end method

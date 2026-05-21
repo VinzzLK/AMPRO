@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/color_picker_popup_holder" android:background="@drawable/round_rect5dp_a11" android:layout_width="wrap_content" android:layout_height="@dimen/scene_overlay_popup_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/W1" android:gravity="center" android:id="@id/titleText" android:background="@drawable/round_toprect5dp_a9" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/watermark" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/selector_nor_w1_act_y1" android:gravity="center" android:id="@id/topText" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/top" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/selector_nor_w1_act_y1" android:gravity="center" android:id="@id/bottomText" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/bottom" android:layout_weight="1.0" />
+    <View android:background="@color/S6" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="44.0dip" android:layout_marginRight="44.0dip" android:layout_marginHorizontal="44.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/selector_nor_w1_act_y1" android:gravity="center" android:id="@id/removeText" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/remove" android:layout_weight="1.0" />
+</LinearLayout>

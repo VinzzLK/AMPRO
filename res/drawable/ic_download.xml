@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="15.0dip" android:width="19.0dip" android:viewportWidth="77.0" android:viewportHeight="61.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$ic_download__0" android:pathData="M38.5,4L39.5,4A2.5,2.5 0,0 1,42 6.5L42,40.5A2.5,2.5 0,0 1,39.5 43L38.5,43A2.5,2.5 0,0 1,36 40.5L36,6.5A2.5,2.5 0,0 1,38.5 4z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="#00000000" android:pathData="M51.5,29.5l-13,13l-13,-13" android:strokeColor="@drawable/$ic_download__1" android:strokeWidth="6.0" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_download__2" android:pathData="M11,28L11,28A3,3 0,0 1,14 31L14,54A3,3 0,0 1,11 57L11,57A3,3 0,0 1,8 54L8,31A3,3 0,0 1,11 28z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="@drawable/$ic_download__3" android:pathData="M69,54L69,54A3,3 0,0 1,66 57L12,57A3,3 0,0 1,9 54L9,54A3,3 0,0 1,12 51L66,51A3,3 0,0 1,69 54z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="@drawable/$ic_download__4" android:pathData="M67,28L67,28A3,3 0,0 1,70 31L70,54A3,3 0,0 1,67 57L67,57A3,3 0,0 1,64 54L64,31A3,3 0,0 1,67 28z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

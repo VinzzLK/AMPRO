@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/headerFrame" android:background="#ffff8855" android:layout_width="0.0dip" android:layout_height="50.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/backButton" android:background="@android:color/transparent" android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/ac_ic_back" />
+        <TextView android:textColor="#ffffffff" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/developer_settings" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/overflow" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:contentDescription="@string/overflow" android:elevation="4.0dip" app:srcCompat="@drawable/ic_more_vert_white_24dp" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/settingsFragmentHolder" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/headerFrame" />
+</androidx.constraintlayout.widget.ConstraintLayout>

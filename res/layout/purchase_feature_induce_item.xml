@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="@dimen/purchase_feature_induce_icon_size" android:layout_height="@dimen/purchase_feature_induce_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/purchase_feature_induce_icon_size" app:cardBackgroundColor="@color/W1" app:cardCornerRadius="@dimen/radius_10dp" app:cardElevation="3.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.facebook.drawee.view.SimpleDraweeView android:id="@id/feature_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layerType="software" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/W2" android:gravity="start" android:id="@id/feature_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="5.0dip" android:shadowColor="@color/Bl1_a70" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:textAlignment="center" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:autoSizeMaxTextSize="14.0dip" app:autoSizeMinTextSize="8.0dip" app:autoSizeStepGranularity="0.5dip" app:autoSizeTextType="uniform" app:layout_constraintBottom_toBottomOf="@id/feature_icon" app:layout_constraintRight_toRightOf="@id/feature_icon" app:layout_constraintStart_toStartOf="@id/feature_icon" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/S8" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/navBack" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ac_ic_back" />
+    <TextView android:textColor="#ffffffff" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/settingName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/prevOutlineButton" android:background="@drawable/actionbar_toggle_button_bg" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_marginEnd="2.0dip" app:srcCompat="@drawable/ic_prev_element" />
+    <ImageButton android:id="@id/nextOutlineButton" android:background="@drawable/actionbar_toggle_button_bg" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_marginEnd="7.0dip" app:srcCompat="@drawable/ic_next_element" />
+    <ImageButton android:id="@id/modeEditKeyframes" android:background="@drawable/actionbar_segment_left_bg" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="fill_parent" android:tint="@color/selector_nor_w1_act_y1" android:layout_marginEnd="0.0dip" app:srcCompat="@drawable/ic_keyframe_add_hollow" />
+    <ImageButton android:id="@id/modeEditPoints" android:background="@drawable/actionbar_segment_right_bg" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="fill_parent" android:tint="@color/selector_nor_w1_act_y1" android:layout_marginEnd="5.0dip" app:srcCompat="@drawable/ic_point_add" />
+</LinearLayout>

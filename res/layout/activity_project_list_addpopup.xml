@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/add_menu_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:id="@id/closeButtonSpacer" android:layout_width="9.0dip" android:layout_height="0.0dip" app:layout_constraintLeft_toLeftOf="@id/buttonCloseAdd" />
+    <ImageView android:id="@id/buttonCloseAdd" android:layout_width="@dimen/add_button_size" android:layout_height="@dimen/add_button_size" android:src="@drawable/ac_ic_add_element" android:scaleType="center" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

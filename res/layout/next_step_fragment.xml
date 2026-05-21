@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/Bl1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/nsTitleHolder" android:background="@color/Bl1" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="@dimen/margin_5dp">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/nsCloseButton" android:layout_width="30.0dip" android:layout_height="fill_parent" android:scaleType="center" android:tint="@color/W1" android:layout_alignParentStart="true" app:srcCompat="@drawable/ac_ic_cancel" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/W1" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/next_step" android:textAlignment="center" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.alightcreative.widget.RecyclerViewEx android:id="@id/nextStepRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

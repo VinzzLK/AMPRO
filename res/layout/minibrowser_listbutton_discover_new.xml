@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/holder" android:background="@drawable/minibrowser_button_bg" android:layout_width="75.0dip" android:layout_height="75.0dip" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ac_media_addpopup_discover" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/W1" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/templates_presets_library_main_editor_entry_point_name" android:textAlignment="center" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:layout_marginEnd="-3.0dip" app:cardBackgroundColor="@color/new_tag_background" app:cardCornerRadius="2.0dip" app:cardElevation="3.0dip" app:layout_constraintEnd_toEndOf="@id/holder" app:layout_constraintTop_toTopOf="@id/holder">
+        <TextView android:textSize="7.0sp" android:textColor="@color/new_tag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="-0.5dip" android:layout_marginRight="3.0dip" android:text="@string/new_non_translatable" android:textAllCaps="true" android:fontFamily="@font/spacegrotesk_bold" android:layout_marginHorizontal="3.0dip" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

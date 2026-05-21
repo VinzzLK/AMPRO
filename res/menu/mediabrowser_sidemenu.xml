@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ac_ic_mediabrowser_albums" android:id="@id/mediabrowser_albums" android:title="@string/mediabrowser_visual_albums" />
+    <item android:icon="@drawable/ac_ic_mediabrowser_timeline" android:id="@id/mediabrowser_timeline" android:title="@string/mediabrowser_visual_timeline" />
+</menu>

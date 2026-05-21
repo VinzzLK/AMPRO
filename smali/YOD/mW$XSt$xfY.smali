@@ -1,0 +1,108 @@
+.class final LYOD/mW$XSt$xfY;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LYOD/mW$XSt;->hUw(LnH/Ep;LnH/Uk;J)LnH/BM;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic cD:I
+
+.field final synthetic j:LnH/vp;
+
+
+# direct methods
+.method constructor <init>(LnH/vp;I)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, LYOD/mW$XSt$xfY;->j:LnH/vp;
+
+    .line 2
+    .line 3
+    iput p2, p0, LYOD/mW$XSt$xfY;->cD:I
+
+    .line 4
+    .line 5
+    const/4 p1, 0x1
+
+    .line 6
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+.end method
+
+
+# virtual methods
+.method public final hUw(LnH/vp$xfY;)V
+    .locals 7
+
+    .line 1
+    iget-object v1, p0, LYOD/mW$XSt$xfY;->j:LnH/vp;
+
+    .line 2
+    .line 3
+    iget v0, p0, LYOD/mW$XSt$xfY;->cD:I
+
+    .line 4
+    .line 5
+    neg-int v3, v0
+
+    .line 6
+    const/4 v5, 0x4
+
+    .line 7
+    const/4 v6, 0x0
+
+    .line 8
+    const/4 v2, 0x0
+
+    .line 9
+    const/4 v4, 0x0
+
+    .line 10
+    move-object v0, p1
+
+    .line 11
+    invoke-static/range {v0 .. v6}, LnH/vp$xfY;->X(LnH/vp$xfY;LnH/vp;IIFILjava/lang/Object;)V
+
+    .line 12
+    .line 13
+    .line 14
+    return-void
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, LnH/vp$xfY;
+
+    .line 2
+    .line 3
+    invoke-virtual {p0, p1}, LYOD/mW$XSt$xfY;->hUw(LnH/vp$xfY;)V
+
+    .line 4
+    .line 5
+    .line 6
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    .line 7
+    .line 8
+    return-object p1
+.end method

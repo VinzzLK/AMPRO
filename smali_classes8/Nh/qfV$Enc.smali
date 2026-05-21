@@ -1,0 +1,98 @@
+.class final synthetic LNh/qfV$Enc;
+.super Lkotlin/jvm/internal/MutablePropertyReference0Impl;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LNh/qfV;-><init>(LNh/Enc;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1000
+    name = null
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/Object;)V
+    .locals 6
+
+    .line 1
+    const-string v4, "getSecondsOfMinute()Ljava/lang/Integer;"
+
+    .line 2
+    .line 3
+    const/4 v5, 0x0
+
+    .line 4
+    const-class v2, LNh/Y;
+
+    .line 5
+    .line 6
+    const-string v3, "secondsOfMinute"
+
+    .line 7
+    .line 8
+    move-object v0, p0
+
+    .line 9
+    move-object v1, p1
+
+    .line 10
+    invoke-direct/range {v0 .. v5}, Lkotlin/jvm/internal/MutablePropertyReference0Impl;-><init>(Ljava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    .line 11
+    .line 12
+    .line 13
+    return-void
+.end method
+
+
+# virtual methods
+.method public get()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    check-cast v0, LNh/Y;
+
+    .line 4
+    .line 5
+    invoke-virtual {v0}, LNh/Y;->ah()Ljava/lang/Integer;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v0
+
+    .line 9
+    return-object v0
+.end method
+
+.method public set(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    check-cast v0, LNh/Y;
+
+    .line 4
+    .line 5
+    check-cast p1, Ljava/lang/Integer;
+
+    .line 6
+    .line 7
+    invoke-virtual {v0, p1}, LNh/Y;->pM1(Ljava/lang/Integer;)V
+
+    .line 8
+    .line 9
+    .line 10
+    return-void
+.end method

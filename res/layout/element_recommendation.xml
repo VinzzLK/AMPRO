@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="62.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/elementThumb" android:layout_width="47.0dip" android:layout_height="47.0dip" app:failureImage="@drawable/ic_element_noimage" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:placeholderImage="@drawable/ic_element_recommend_loading" app:roundAsCircle="true" />
+    <ImageView android:id="@id/downloadButton" android:layout_width="47.0dip" android:layout_height="47.0dip" android:src="@drawable/ic_element_page_download" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/newIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new" app:layout_constraintBottom_toBottomOf="@id/downloadButton" app:layout_constraintEnd_toEndOf="@id/downloadButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

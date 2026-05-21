@@ -1,0 +1,38 @@
+.class public final synthetic Lygp/I8;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic j:Lygp/lX;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lygp/lX;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lygp/I8;->j:Lygp/lX;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lygp/I8;->j:Lygp/lX;
+
+    invoke-static {v0}, Lygp/lX$xfY;->q(Lygp/lX;)Lkotlin/Unit;
+
+    move-result-object v0
+
+    return-object v0
+.end method

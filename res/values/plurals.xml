@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="XML_errors_partial_upload_part_1">
+        <item quantity="other">%1$d files out of %2$d were successfully uploaded.</item>
+        <item quantity="one">%1$d file out of %2$d was successfully uploaded.</item>
+    </plurals>
+    <plurals name="XML_errors_partial_upload_part_2">
+        <item quantity="other">"Sorry, we couldn't upload %1$d files."</item>
+        <item quantity="one">"Sorry, we couldn't upload %1$d file."</item>
+    </plurals>
+    <plurals name="al_exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="al_exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="copy_layer">
+        <item quantity="other">Copy %d Layers</item>
+        <item quantity="one">Copy Layer</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_hours">
+        <item quantity="other">hours</item>
+        <item quantity="one">hour</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_minutes">
+        <item quantity="other">minutes</item>
+        <item quantity="one">minute</item>
+    </plurals>
+    <plurals name="countdown_paywall_countdown_seconds">
+        <item quantity="other">seconds</item>
+        <item quantity="one">second</item>
+    </plurals>
+    <plurals name="delete_account_package_agree">
+        <item quantity="other">You have shared %1$d project packages using this account. [b]If you delete this account, the packages will be deleted from the cloud and the package links and QR codes will be permanently deleted and cannot be recovered.[/b]</item>
+        <item quantity="one">You have shared %1$d project package using this account. [b]If you delete this account, the packages will be deleted from the cloud and the package links and QR codes will be permanently deleted and cannot be recovered.[/b]</item>
+    </plurals>
+    <plurals name="delete_elements_title">
+        <item quantity="other">Delete %d elements</item>
+        <item quantity="one">Delete %d element</item>
+    </plurals>
+    <plurals name="delete_projects_title">
+        <item quantity="other">Delete %d projects</item>
+        <item quantity="one">Delete %d project</item>
+    </plurals>
+    <plurals name="delete_template_dialog_title">
+        <item quantity="other">Delete %1$d templates</item>
+        <item quantity="one">Delete %1$d template</item>
+    </plurals>
+    <plurals name="duplicate_elements_title">
+        <item quantity="other">Duplicate %d elements</item>
+        <item quantity="one">Duplicate %d element</item>
+    </plurals>
+    <plurals name="duplicate_layer_ios">
+        <item quantity="other">Duplicate %d Layers</item>
+        <item quantity="one">Duplicate Layer</item>
+    </plurals>
+    <plurals name="duplicate_projects_title">
+        <item quantity="other">Duplicate %d projects</item>
+        <item quantity="one">Duplicate %d project</item>
+    </plurals>
+    <plurals name="duration_n_days">
+        <item quantity="other">%1$d days</item>
+        <item quantity="one">%1$d day</item>
+    </plurals>
+    <plurals name="duration_n_months">
+        <item quantity="other">%1$d months</item>
+        <item quantity="one">%1$d month</item>
+    </plurals>
+    <plurals name="duration_n_weeks">
+        <item quantity="other">%1$d weeks</item>
+        <item quantity="one">%1$d week</item>
+    </plurals>
+    <plurals name="duration_n_years">
+        <item quantity="other">%1$d years</item>
+        <item quantity="one">%1$d year</item>
+    </plurals>
+    <plurals name="elements_selected">
+        <item quantity="other">%d elements selected</item>
+        <item quantity="one">%d element selected</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="expires_n_days">
+        <item quantity="other">Offer expires in %1$d days.</item>
+        <item quantity="one">Offer expires in one day.</item>
+    </plurals>
+    <plurals name="expires_n_hours">
+        <item quantity="other">Offer expires in %1$d hours</item>
+        <item quantity="one">Offer expires in one hour.</item>
+    </plurals>
+    <plurals name="fui_error_weak_password">
+        <item quantity="other">Password not strong enough. Use at least %1$d characters and a mix of letters and numbers</item>
+        <item quantity="one">Password not strong enough. Use at least %1$d character and a mix of letters and numbers</item>
+    </plurals>
+    <plurals name="import_element_title">
+        <item quantity="other">Import %d Elements</item>
+        <item quantity="one">Import Element</item>
+    </plurals>
+    <plurals name="import_project_title">
+        <item quantity="other">Import %d Projects</item>
+        <item quantity="one">Import Project</item>
+    </plurals>
+    <plurals name="layers_selected">
+        <item quantity="other">%d layers selected</item>
+        <item quantity="one">%d layer selected</item>
+    </plurals>
+    <plurals name="linked_projects_changed">
+        <item quantity="other">%d linked projects/elements have been changed. Would you like to update the embedded copies in this project?</item>
+        <item quantity="one">A linked project or element has been changed. Would you like to update the embedded copy in this project?</item>
+    </plurals>
+    <plurals name="linked_projects_missing">
+        <item quantity="other">Originals for %d linked projects/elements are missing; the most recent embedded copies in this project will be used instead.</item>
+        <item quantity="one">The original of a linked project/element is missing; the most recent embedded copy in this project will be used instead.</item>
+    </plurals>
+    <plurals name="more_count">
+        <item quantity="other">+%d more</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="n_day_pass">
+        <item quantity="other">%d-Day Pass</item>
+        <item quantity="one">One-Day Pass</item>
+    </plurals>
+    <plurals name="n_day_trial">
+        <item quantity="other">Includes %d-Day Free Trial</item>
+    </plurals>
+    <plurals name="n_hour_pass">
+        <item quantity="other">%d-Hour Pass</item>
+        <item quantity="one">One-Hour Pass</item>
+    </plurals>
+    <plurals name="n_minute_pass">
+        <item quantity="other">%d-Minute Pass</item>
+        <item quantity="one">One-Minute Pass</item>
+    </plurals>
+    <plurals name="n_month_pass">
+        <item quantity="other">%d-Month Pass</item>
+        <item quantity="one">One-Month Pass</item>
+    </plurals>
+    <plurals name="n_month_subscription_member">
+        <item quantity="other">%d-Month Subscription Membership</item>
+        <item quantity="one">Monthly Subscription Membership</item>
+    </plurals>
+    <plurals name="n_times">
+        <item quantity="other">%d times</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="n_week_pass">
+        <item quantity="other">%d-Week Pass</item>
+        <item quantity="one">One-Week Pass</item>
+    </plurals>
+    <plurals name="n_year_pass">
+        <item quantity="other">%d-Year Pass</item>
+        <item quantity="one">One-Year Pass</item>
+    </plurals>
+    <plurals name="n_year_sub_member">
+        <item quantity="other">%d-Year Subscription Membership</item>
+        <item quantity="one">Annual Subscription Membership</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="packaging_projects_plural">
+        <item quantity="other">Packaging %d Projects</item>
+        <item quantity="one">Packaging %d Project</item>
+    </plurals>
+    <plurals name="paste_layer">
+        <item quantity="other">Paste %d Layers</item>
+        <item quantity="one">Paste Layer</item>
+    </plurals>
+    <plurals name="preset_delete_dialog_title">
+        <item quantity="other">Delete %1$d presets</item>
+        <item quantity="one">Delete %1$d preset</item>
+    </plurals>
+    <plurals name="preset_export_dialog_title">
+        <item quantity="other">Export %1$d Presets</item>
+        <item quantity="one">Export Preset</item>
+    </plurals>
+    <plurals name="preset_import_dialog_title">
+        <item quantity="other">Import %1$d Presets</item>
+        <item quantity="one">Import Preset</item>
+    </plurals>
+    <plurals name="project_selection_number_selected">
+        <item quantity="other">%1$d selected</item>
+        <item quantity="one">%1$d selected</item>
+    </plurals>
+    <plurals name="projects_selected">
+        <item quantity="other">%d projects selected</item>
+        <item quantity="one">%d project selected</item>
+    </plurals>
+</resources>

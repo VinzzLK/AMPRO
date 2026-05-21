@@ -1,0 +1,93 @@
+.class public LbL/c;
+.super LbL/V;
+.source "SourceFile"
+
+
+# static fields
+.field public static cLW:Z = false
+
+
+# instance fields
+.field private final w:Landroid/net/Uri;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public constructor <init>(LBPh/c;Lcom/google/firebase/V;Landroid/net/Uri;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2}, LbL/V;-><init>(LBPh/c;Lcom/google/firebase/V;)V
+
+    .line 2
+    .line 3
+    .line 4
+    const/4 p1, 0x1
+
+    .line 5
+    sput-boolean p1, LbL/c;->cLW:Z
+
+    .line 6
+    .line 7
+    iput-object p3, p0, LbL/c;->w:Landroid/net/Uri;
+
+    .line 8
+    .line 9
+    const-string p1, "X-Goog-Upload-Protocol"
+
+    .line 10
+    .line 11
+    const-string p2, "resumable"
+
+    .line 12
+    .line 13
+    invoke-super {p0, p1, p2}, LbL/XSt;->R(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 14
+    .line 15
+    .line 16
+    const-string p1, "X-Goog-Upload-Command"
+
+    .line 17
+    .line 18
+    const-string p2, "cancel"
+
+    .line 19
+    .line 20
+    invoke-super {p0, p1, p2}, LbL/XSt;->R(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 21
+    .line 22
+    .line 23
+    return-void
+.end method
+
+
+# virtual methods
+.method public F0()Landroid/net/Uri;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, LbL/c;->w:Landroid/net/Uri;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method protected R6()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    const-string v0, "POST"
+
+    .line 2
+    .line 3
+    return-object v0
+.end method

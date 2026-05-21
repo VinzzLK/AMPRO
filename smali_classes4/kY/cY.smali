@@ -1,0 +1,16 @@
+.class public abstract synthetic LkY/cY;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static bridge synthetic hUw()Landroid/content/pm/PackageInfo;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Landroid/webkit/WebView;->getCurrentWebViewPackage()Landroid/content/pm/PackageInfo;
+
+    move-result-object v0
+
+    return-object v0
+.end method

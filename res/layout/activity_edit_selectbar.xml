@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:background="@color/Y1" android:layout_width="0.0dip" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/cancelSelectMode" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:id="@id/normalMultiHolder" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="?amBackgroundGradientTop" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/selectStateMessage" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/buttonGroupSelected" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ac_ic_groupelements" app:tint="?amBackgroundGradientTop" />
+            <ImageButton android:id="@id/buttonGroupAndMask" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_masking_group_bl" />
+            <ImageButton android:id="@id/buttonGroupAndExclude" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_exclude_group_bl" />
+            <ImageButton android:id="@id/buttonDeleteSelected" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ac_ic_delete" app:tint="?amBackgroundGradientTop" />
+            <ImageButton android:id="@id/buttonRightCue" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_multiselect_cue" app:tint="?amBackgroundGradientTop" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/screenAlignHolder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/buttonLeftCue" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:rotation="180.0" app:srcCompat="@drawable/ic_multiselect_cue" />
+            <ImageButton android:id="@id/alignLeftScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_left_screen_bl" />
+            <ImageButton android:id="@id/alignCenterHorizontalScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_centerhorizontally_screen_bl" />
+            <ImageButton android:id="@id/alignRightScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_right_screen_bl" />
+            <ImageButton android:id="@id/alignTopScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_top_screen_bl" />
+            <ImageButton android:id="@id/alignCenterVerticalScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_centervertically_screen_bl" />
+            <ImageButton android:id="@id/alignBottomScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_bottom_screen_bl" />
+            <ImageButton android:id="@id/alignDistributeVerticalScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_distribute_vertically_screen_bl" />
+            <ImageButton android:id="@id/alignDistributeHorizontalScreen" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_align_distribute_horizontally_screen_bl" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/cancelSelectMode" android:background="@color/Y1" android:layout_width="40.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ac_ic_cancel" />
+</androidx.constraintlayout.widget.ConstraintLayout>

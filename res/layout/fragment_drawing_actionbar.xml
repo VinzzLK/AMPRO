@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/S8" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton android:id="@id/navBack" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ac_ic_back" />
+    <TextView android:textColor="#ffffffff" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/settingName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/overflow" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_margin="2.5dip" app:srcCompat="@drawable/ac_ic_overflow_horiz" app:tint="@color/selector_nor_w1_act_c1" />
+</LinearLayout>

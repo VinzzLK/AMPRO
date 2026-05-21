@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ac_ic_settings" android:id="@id/action_settings" android:title="@string/action_settings" />
+    <item android:icon="@drawable/ac_ic_about" android:id="@id/action_about" android:title="@string/about" />
+    <item android:icon="@drawable/ac_ic_about" android:id="@id/action_open_source_licenses" android:title="@string/open_source_libraries" />
+    <item android:icon="@drawable/ac_ic_my_account" android:id="@id/action_my_account" android:title="@string/my_account" />
+    <item android:icon="@drawable/ic_tutorial_button" android:id="@id/action_tutorial" android:title="@string/tutorial" />
+    <item android:id="@id/action_sign_in" android:visible="false" android:title="@string/sign_in" />
+    <item android:id="@id/action_sign_out" android:visible="false" android:title="@string/sign_out" />
+    <item android:id="@id/action_privacy_policy" android:title="@string/privacy_policy" />
+    <item android:id="@id/action_tos" android:title="@string/terms_of_service" />
+    <item android:icon="@drawable/ic_code_red_24dp" android:id="@id/action_acdev" android:visible="false" android:title="@string/developer_settings" />
+</menu>

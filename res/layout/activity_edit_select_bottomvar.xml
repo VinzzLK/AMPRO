@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@drawable/rounded_bg_s9_5dp" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="120.0dip" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/buttonMultiTrimLeft" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ac_ic_trimleft" />
+        <ImageButton android:id="@id/buttonMultiSplit" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ac_ic_split" />
+        <ImageButton android:id="@id/buttonMultiTrimRight" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ac_ic_trimright" />
+        <ImageButton android:id="@id/buttomMultiExpandEnd" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_right_expand" />
+        <ImageButton android:id="@id/buttomMultiMoveToRight" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_right_move" />
+        <ImageButton android:id="@id/buttomMultiExpandStart" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_left_expand" />
+        <ImageButton android:id="@id/buttomMultiMoveToLeft" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:srcCompat="@drawable/ic_left_move" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/alignLeftTimeline" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_align_left_timeline" />
+        <ImageButton android:id="@id/alignDistributeTimeline" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_align_distribute_timeline" />
+        <ImageButton android:id="@id/alignRightTimeline" android:background="@android:color/transparent" android:layout_width="40.0dip" android:layout_height="fill_parent" app:srcCompat="@drawable/ic_align_right_timeline" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

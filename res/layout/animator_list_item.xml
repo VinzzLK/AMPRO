@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:background="@drawable/round_rect5dp_nor_s9_pre_s9" android:paddingLeft="3.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/list_panel_item_height" android:layout_margin="@dimen/list_panel_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="8.0dip" android:tint="#ffffffff" android:alpha="0.3" app:srcCompat="@drawable/ac_ic_expandable" />
+    <ImageView android:id="@id/animatorTypeIcon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_margin="8.0dip" android:tint="#ffffffff" />
+    <TextView android:textColor="#ffffffff" android:id="@id/animatorName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_weight="1.0" />
+</LinearLayout>

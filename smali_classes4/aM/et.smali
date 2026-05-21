@@ -1,0 +1,72 @@
+.class public final synthetic LaM/et;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function2;
+
+
+# instance fields
+.field public final synthetic H:I
+
+.field public final synthetic cD:LxW7/h$xfY$xfY;
+
+.field public final synthetic j:LY1/et;
+
+.field public final synthetic q:Z
+
+.field public final synthetic x:Lkotlin/jvm/functions/Function0;
+
+
+# direct methods
+.method public synthetic constructor <init>(LY1/et;LxW7/h$xfY$xfY;Lkotlin/jvm/functions/Function0;ZI)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LaM/et;->j:LY1/et;
+
+    iput-object p2, p0, LaM/et;->cD:LxW7/h$xfY$xfY;
+
+    iput-object p3, p0, LaM/et;->x:Lkotlin/jvm/functions/Function0;
+
+    iput-boolean p4, p0, LaM/et;->q:Z
+
+    iput p5, p0, LaM/et;->H:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    .line 1
+    iget-object v0, p0, LaM/et;->j:LY1/et;
+
+    iget-object v1, p0, LaM/et;->cD:LxW7/h$xfY$xfY;
+
+    iget-object v2, p0, LaM/et;->x:Lkotlin/jvm/functions/Function0;
+
+    iget-boolean v3, p0, LaM/et;->q:Z
+
+    iget v4, p0, LaM/et;->H:I
+
+    move-object v5, p1
+
+    check-cast v5, LS1F/Enc;
+
+    check-cast p2, Ljava/lang/Integer;
+
+    invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v6
+
+    invoke-static/range {v0 .. v6}, LaM/x;->R6(LY1/et;LxW7/h$xfY$xfY;Lkotlin/jvm/functions/Function0;ZILS1F/Enc;I)Lkotlin/Unit;
+
+    move-result-object p1
+
+    return-object p1
+.end method
