@@ -5299,6 +5299,30 @@
 
     invoke-interface {v2, v3}, LTV/n;->hUw(LTV/xfY;)V
 
+    # VinzzMod: Add "Reverse Video" menu item below Ekstrak Audio
+    invoke-virtual {v10}, Lcom/alightcreative/app/motion/activities/EditActivity;->b6s()LTV/n;
+
+    move-result-object v2
+
+    new-instance v3, LTV/xfY$c;
+
+    const-string v4, "vinzz_reverse_video"
+
+    const/4 v5, 0x2
+
+    const/4 v6, 0x0
+
+    invoke-direct {v3, v4, v6, v5, v6}, LTV/xfY$c;-><init>(Ljava/lang/String;Landroid/os/Bundle;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    invoke-interface {v2, v3}, LTV/n;->hUw(LTV/xfY;)V
+
+    # VinzzMod: Handle vinzz_reverse_video click
+    invoke-virtual/range {v21 .. v21}, Lcom/alightcreative/app/motion/scene/SceneElement;->getFillVideo()Landroid/net/Uri;
+    move-result-object v2
+    if-eqz v2, :vinzz_rev_skip
+    invoke-static {v10, v2}, Lcom/alightcreative/app/motion/vinzz/VinzzReverseVideo;->reverseVideo(Landroid/content/Context;Landroid/net/Uri;)V
+    :vinzz_rev_skip
+
     .line 188
     invoke-virtual {v0}, Lcom/alightcreative/app/motion/activities/nQ;->E()Lcom/alightcreative/app/motion/scene/SceneHolder;
 

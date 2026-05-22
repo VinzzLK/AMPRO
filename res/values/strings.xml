@@ -2037,6 +2037,7 @@ For privacy concerns and size limitations, consider using placeholder media from
     <string name="external_subscription_popup_body">You are now an Alight Motion member! Please check My Account for details.</string>
     <string name="external_subscription_popup_title">Welcome</string>
     <string name="extract_audio">Extract Audio</string>
+    <string name="vinzz_reverse_video">Reverse Video</string>
     <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="facebook_app_id">1736402916450835</string>
