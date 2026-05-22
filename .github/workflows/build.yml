@@ -27,33 +27,43 @@ jobs:
 
       - name: Install apktool
         run: |
-          wget -q https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool
-          wget -q https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.9.3.jar -O /usr/local/bin/apktool.jar
+          # Download apktool jar dari GitHub Releases (lebih stabil)
+          APKTOOL_VERSION="2.9.3"
+          curl -sL "https://github.com/iBotPeaches/Apktool/releases/download/v${APKTOOL_VERSION}/apktool_${APKTOOL_VERSION}.jar" \
+            -o /usr/local/bin/apktool.jar
+
+          # Buat wrapper script manual
+          cat > /usr/local/bin/apktool << 'EOF'
+          #!/bin/bash
+          java -jar /usr/local/bin/apktool.jar "$@"
+          EOF
+
           chmod +x /usr/local/bin/apktool
           apktool --version
 
-      - name: Install apksigner + zipalign (build-tools)
+      - name: Install zipalign & apksigner
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y zipalign apksigner
 
-      - name: Verify patched source exists
+      - name: Verify patched source
         run: |
-          test -d patched/ || (echo "ERROR: patched/ folder not found. Put decompiled+patched source here." && exit 1)
-          test -f patched/AndroidManifest.xml || (echo "ERROR: AndroidManifest.xml missing in patched/" && exit 1)
+          test -d patched/ || \
+            (echo "ERROR: folder patched/ tidak ditemukan. Taruh source apktool di sini." && exit 1)
+          test -f patched/AndroidManifest.xml || \
+            (echo "ERROR: AndroidManifest.xml tidak ada di patched/" && exit 1)
           echo "Source OK"
 
-      - name: Build APK with apktool
+      - name: Build APK
         run: |
           apktool b patched/ -o AlightMod_unsigned.apk --use-aapt2
-          echo "Build done: $(du -sh AlightMod_unsigned.apk)"
+          echo "Build selesai: $(du -sh AlightMod_unsigned.apk)"
 
       - name: Zipalign
         run: |
           zipalign -v 4 AlightMod_unsigned.apk AlightMod_aligned.apk
-          echo "Zipalign done"
 
-      - name: Generate debug keystore (if not present)
+      - name: Generate keystore
         run: |
           if [ ! -f keystore.jks ]; then
             keytool -genkey -v \
@@ -64,10 +74,8 @@ jobs:
               -validity 10000 \
               -storepass vinzzmod123 \
               -keypass vinzzmod123 \
-              -dname "CN=VinzzMod, OU=Modding, O=Vinnz, L=ID, S=ID, C=ID"
-            echo "Keystore generated"
-          else
-            echo "Using existing keystore.jks"
+              -dname "CN=VinzzMod,OU=Mod,O=Vinnz,L=ID,S=ID,C=ID" \
+              -noprompt
           fi
 
       - name: Sign APK
@@ -79,36 +87,33 @@ jobs:
             --key-pass pass:vinzzmod123 \
             --out AlightMod_VinzzMod_signed.apk \
             AlightMod_aligned.apk
-          apksigner verify AlightMod_VinzzMod_signed.apk
-          echo "Sign OK"
+          apksigner verify --verbose AlightMod_VinzzMod_signed.apk
 
-      - name: Rename with version
+      - name: Rename APK
         run: |
           TAG="${{ github.event.inputs.version_tag || 'latest' }}"
-          mv AlightMod_VinzzMod_signed.apk AlightMod_VinzzMod_${TAG}.apk
+          mv AlightMod_VinzzMod_signed.apk "AlightMod_VinzzMod_${TAG}.apk"
           echo "APK_NAME=AlightMod_VinzzMod_${TAG}.apk" >> $GITHUB_ENV
 
-      - name: Upload APK as artifact
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: AlightMod-VinzzMod
           path: ${{ env.APK_NAME }}
           retention-days: 30
 
-      - name: Create GitHub Release (on tag push)
+      - name: GitHub Release (tag only)
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: ${{ env.APK_NAME }}
           body: |
             ## AlightMod by @Vinnz_
-            
-            ### Patch List
             - ✅ Premium Unlock (permanent)
             - ✅ Remove Watermark
-            - ✅ No Ads (AppLovin + AdMob + Facebook)
+            - ✅ No Ads
             - ✅ Custom Notif @Vinnz_
-            - ✅ XML Preset 50MB+ Support
+            - ✅ XML Preset 50MB+
             - ✅ Reverse Video (lossless)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
